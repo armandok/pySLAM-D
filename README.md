@@ -4,20 +4,20 @@ pySLAM-D is a SLAM code for **RGB-D** images in *python* that computes the camer
 
 
 
-### Installation
+## Installation
 We have tested this library in **Ubuntu 18.04** and **CentOS 7**.
-# 1. Prerequisites
-The [gtsam](https://github.com/borglab/gtsam) library is used for pose graph optimization. Make sure to build it with python bindings.
-We also suggest using a conda environment.
 
-#1. Creating the conda environment 
-
+### 1. Creating the conda environment 
+We suggest using a conda environment.
 ```
 conda update -q conda
 conda create -q -n pyslamd python=3.7 opencv=3.4.* numpy boost py-boost cmake eigen
 conda activate pyslamd
 ```
-#2. Installing dependencies and third party libraries
+### 2. GTSAM
+The [gtsam](https://github.com/borglab/gtsam) library is used for pose graph optimization. Make sure to build it with python bindings.
+
+### 3. Installing dependencies and third party libraries
 We use Open3D for 3D data handling.
 ```
 conda install -c open3d-admin open3d
@@ -32,6 +32,6 @@ chmod +x build.sh
 ./build.sh
 ```
 
-#3. Using with Habitat-Sim
+### 4. Using with Habitat-Sim
 run habitat.py
 
