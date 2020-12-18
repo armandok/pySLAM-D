@@ -1,0 +1,51 @@
+#--------------------------------------------------------------------------------------------
+# Camera Parameters. Adjust them!
+#--------------------------------------------------------------------------------------------
+
+# Camera calibration and distortion parameters (OpenCV)
+Camera.fx: 320.0
+Camera.fy: 320.0
+Camera.cx: 320
+Camera.cy: 240
+
+Camera.width: 640
+Camera.height: 480
+
+# Camera frames per second
+Camera.fps: 30.0
+
+# IR projector baseline times fx (aprox.)
+Camera.bf: 40.0
+
+# Color order of the images (0: BGR, 1: RGB. It is ignored if images are grayscale)
+Camera.RGB: 1
+
+# Close/Far threshold. Baseline times.
+ThDepth: 100.0
+
+# Deptmap values factor
+DepthMapFactor: 1.0
+
+#--------------------------------------------------------------------------------------------
+# ORB Parameters
+#--------------------------------------------------------------------------------------------
+
+# ORB Extractor: Number of features per image
+ORBextractor.nFeatures: 1500
+
+# ORB Extractor: Scale factor between levels in the scale pyramid
+ORBextractor.scaleFactor: 1.2
+
+# ORB Extractor: Number of levels in the scale pyramid
+ORBextractor.nLevels: 8
+
+# ORB Extractor: Fast threshold
+ORBextractor.thFAST: 31
+
+#--------------------------------------------------------------------------------------------
+# Saving directory
+#--------------------------------------------------------------------------------------------
+# "/projectnb/semslam/armandok/saved"
+Dir.save: "./saved"
+Dir.bow: "orb_mur.fbow"
+Dir.scene: "/home/tronlab/Code/pyslamu/matterport/mp3d/1LXtFkjw3qL/1LXtFkjw3qL.glb"
