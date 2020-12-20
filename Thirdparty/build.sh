@@ -23,5 +23,5 @@ cd ../../..
 mkdir build
 cd build
 
-cmake -DCMAKE_PREFIX_PATH=/projectnb/semslam/armandok/fbow_bin ../src
+cmake ../src
 make
