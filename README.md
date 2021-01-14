@@ -1,6 +1,6 @@
 # pySLAM-D
 
-pySLAM-D is a SLAM code for **RGB-D** images in *python* that computes the camera trajectory and yileds a 3D reconstruction of the scene. This code is suitable for Reinforcement Learning purposes and utilizes existing C++ libraries for fast visual odometry, loop-closure detection, and pose graph optimization. We have tested this code for visual SLAM in the [Habitat-Sim](https://github.com/facebookresearch/habitat-sim) environement.
+pySLAM-D is a SLAM repository for **RGB-D** images in *python* that computes the camera trajectory and yileds a 3D reconstruction of the scene. This code is suitable for Reinforcement Learning purposes and utilizes existing C++ libraries for fast visual odometry, loop-closure detection, and pose graph optimization. We have tested this code for visual SLAM in the [Habitat-Sim](https://github.com/facebookresearch/habitat-sim) environement.
 
 ![pySLAM-D habitat](gif/habitat.gif)
 
